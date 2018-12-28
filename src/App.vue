@@ -26,7 +26,7 @@
 
                   <p>Actuellement en licence professionnelle informatique à l'IUT 1 de Grenoble, je suis déterminé à acquérir des bases solides et devenir le meilleur dans mon domaine qui est l'informatique.</p>
 
-                  <p>Je n'ai pas peur de réléver des défis parce que c'est comme ça que l'on devient meilleur dans ce que l'on fait !</p>    
+                  <p>Je n'ai pas peur de relever des défis parce que c'est comme ça que l'on devient meilleur dans ce que l'on fait !</p>    
               </h6>
              <br> 
              <br> 
