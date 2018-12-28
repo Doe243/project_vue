@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "nodemailer": "^4.7.0",
+    "particles.js": "^2.0.0",
     "vue": "^2.5.17",
     "vue-smooth-dnd": "^0.2.8"
   },

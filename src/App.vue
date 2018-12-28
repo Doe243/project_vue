@@ -83,32 +83,32 @@
                   <li>CSS 3</li>
                   <li>Boostrap 4</li>
                   <li>Sass</li>
-                  <li>Git</li>
                   <li>Vue JS</li>
-                  <li>PHP</li>
-                  <li>Symfony 4</li>
-                  <li>Laravel</li>
+                  <li>PHP (Symfony 4 / Laravel)</li>
                   <li>Ruby on rails</li>
+                  <li>Git</li>
                   <li>Kraken</li>
                 </ul>
                 </p>
             </div>
             <div class="col-md-4">
-              <h2>Mobile <i class="fas fa-mobile-alt"></i></h2>
+              <h2>Mobile Native et Hybride<i class="fas fa-mobile-alt"></i></h2>
               <p>
                 <ul>
                   <h6>Android</h6>
                   <li>Android Studio</li>
-                  <li>Git</li>
+                  <li>Java</li>
                   <li>XML</li>
-                  <li>Kraken</li>
                 </ul>
 
                 <ul>
                   <h6>IOS</h6>
                   <li>X Code</li>
-                  <li>Git</li>
-                  <li>Kraken</li>
+                  <li>Swift</li>
+                </ul>
+                <ul>
+                  <h6>Hybride</h6>
+                  <li>Ionic</li>
                 </ul>
 
                 <ul>
@@ -119,10 +119,9 @@
               </p>
             </div>
             <div class="col-md-4">
-              <h2>Data Science <i class="fas fa-atom"></i></h2>
+              <h2>Deep Learning<i class="fas fa-atom"></i></h2>
               <p>
                 <ul>
-                  <h6>Deep Learning</h6>
                   <li>Anaconda Navigator</li>
                   <li>Python 3.5</li>
                   <li>Spyder</li>
