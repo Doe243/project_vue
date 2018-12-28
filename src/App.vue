@@ -42,7 +42,7 @@
              </div> 
              <br> 
              <br>
-              <h5>Data Science</h5>
+              <h5>Deep Learning</h5>
               <div class="progress">
               <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
              </div> 
