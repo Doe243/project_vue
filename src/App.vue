@@ -73,7 +73,7 @@
       <div class="container cover_img" id="langages">
         <br>
         <br>
-        <h1>Mes langages utilisés</h1>
+        <h1>Mes langages utilises</h1>
         <hr>
           <!-- Example row of columns -->
           <div class="row">
@@ -167,7 +167,7 @@
           <br>
           <li>
               <span></span>
-              <h1 class="text">2 ème Année de Brevet de Technicien Supérieur Système Numérique</h1>
+              <h1 class="text">2 eme Annee de Brevet de Technicien Superieur Systeme Numerique</h1>
               <div class="">Lycée du Grésivaudan Meylan</div>
               <div class="">Informatique et Réseau</div>
               <div class="time">
@@ -178,7 +178,7 @@
           <br>
           <li>
               <span></span>
-              <h1 class="text">1 ère Année de Brevet de Technicien Supérieur Système Numérique</h1>
+              <h1 class="text">1 ere Annee de Brevet de Technicien Superieur Systeme Numerique</h1>
               <div class="">Lycée du Grésivaudan Meylan</div>
               <div class="">Informatique et Réseau</div>
               <div class="time">
@@ -189,7 +189,7 @@
           <br>
           <li>
               <span></span>
-              <h1 class="text">Terminale STI2D (Sciences et Technologies de l'Industrie et du Développement Durable)</h1>
+              <h1 class="text">Terminale STI2D (Sciences et Technologies de l'Industrie et du Developpement Durable)</h1>
               <div class="">Lycée Vaucanson Grenoble</div>
               <div class="">Système Informatique et Numérique</div>
               <div class="time">
@@ -214,7 +214,7 @@
 
       <div class="container cover_img">
       <br>
-      <h1>Jouer à Super Mario Bros !</h1>
+      <h1>Jouer a Super Mario Bros !</h1>
       <a class="btn btn-danger" href="/mario/game.html" target="_blank">Jouer</a>
       <br>
       <br>
