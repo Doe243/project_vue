@@ -21,13 +21,15 @@
           <div class="container col-4 img-responsive center-block"><img src="./assets/retro_gaming_logo.png" alt="A Propos de moi" width="350"></div>
           <div class="container col-8img-responsive center-block">
             <br>
-              <h6>
-                <p>Développeur web (Backend (symfony 4) et frontend(Vue JS)) et aussi mobile(IOS & Android) curieux, motivé et passionné par les nouvelles technologies et aussi le data science (DEEP LEARNING), j'aime les applications simples, rapides et efficaces.</p>
+              <div class="container">
+
+                <p>Développeur web (Backend (symfony 4) et frontend(Vue JS)) et aussi mobile(IOS & Android) curieux, motivé et passionné par les nouvelles technologies et aussi le DEEP LEARNING, j'aime les applications simples, rapides et efficaces.</p>
 
                   <p>Actuellement en licence professionnelle informatique à l'IUT 1 de Grenoble, je suis déterminé à acquérir des bases solides et devenir le meilleur dans mon domaine qui est l'informatique.</p>
 
                   <p>Je n'ai pas peur de relever des défis parce que c'est comme ça que l'on devient meilleur dans ce que l'on fait !</p>    
-              </h6>
+              </div>
+                
              <br> 
              <br> 
              <h5>Web Design</h5>
@@ -158,7 +160,7 @@
               <div class="">IUT 1 Grenoble</div>
               <div class="">Developpement web, androîd et IOS</div>
               <div class="time">
-                  <span>2019 - 2018</span>
+                  <span>2018 - 2019</span>
               </div>
           </li>
           <br>
@@ -169,7 +171,7 @@
               <div class="">Lycée du Grésivaudan Meylan</div>
               <div class="">Informatique et Réseau</div>
               <div class="time">
-                  <span style="">2018 - 2017</span>
+                  <span style="">2017 - 2018</span>
               </div>
           </li>
           <br>
@@ -180,7 +182,7 @@
               <div class="">Lycée du Grésivaudan Meylan</div>
               <div class="">Informatique et Réseau</div>
               <div class="time">
-                  <span>2017 - 2016</span>
+                  <span>2016 - 2017</span>
               </div>
           </li>
           <br>
@@ -191,7 +193,7 @@
               <div class="">Lycée Vaucanson Grenoble</div>
               <div class="">Système Informatique et Numérique</div>
               <div class="time">
-                  <span>2016 - 2015</span>
+                  <span>2015 - 2016</span>
               </div>
           </li>
 
