@@ -174,7 +174,7 @@
                     <hr style="background: #c2d6d6">
 
                     <h3>2019 - à ce jour </h3>
-                    <p>Développeur des applications web chez Capgemini Montbonnot - 38330</p>
+                    <p>Développeur des applications web en alternance chez Capgemini à Montbonnot - 38330</p>
 
                     <h3>2018 - 2019</h3>
                     <p>Développeur des applications web en alternance chez Grenoble Informatique à Grenoble - 38000</p>
@@ -286,7 +286,7 @@
 
     <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;margin-bottom: 40px"><i class="fas fa-arrow-up"></i></button>
     <footer class="container" style="border: 1px solid; padding: 10px; box-shadow: 0 0 14px #000;">
-        <p style="box-shadow: 0 0 3px #fff;">René Mumba Kibutika - Développeur Fullstack - 2021</p>
+        <p style="box-shadow: 0 0 3px #fff;">René Mumba Kibutika - Développeur Fullstack - <span id="cdate"></span></p>
     </footer>
     </div>
 
@@ -310,6 +310,9 @@
               document.body.scrollTop = 0;
               document.documentElement.scrollTop = 0;
             }
+
+            const d = new Date();
+            document.getElementById("cdate").innerHTML = d.getFullYear();
 
         </script>
 

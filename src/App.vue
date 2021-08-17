@@ -238,15 +238,16 @@
       <br>
       <footer class="container">
         <div class="float-center" >
-          <p>© René Mumba Kibutika - Développeur FullStack 2017-2021</p>
+          <p>© René Mumba Kibutika - Développeur FullStack 2017 - {{currentDate()}}</p>
         </div>
-        
       </footer>
 
   </div>
+
 </template>
 
 <script>
+
 import Accueil from "./components/Accueil.vue";
 
 export default {
@@ -254,7 +255,15 @@ export default {
   components: {
     Accueil,
   },
+  methods: {
+    currentDate() {
+      const current = new Date();
+      const date = current.getFullYear();
+      return date;
+    }
+  }
 };
+
 </script>
 
 <style>
