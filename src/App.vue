@@ -23,9 +23,9 @@
             <br>
               <div class="container">
 
-                <p>Développeur web (Backend (symfony 4) et frontend(Vue JS)) et aussi mobile(IOS & Android) curieux, motivé et passionné par les nouvelles technologies et aussi le DEEP LEARNING, j'aime les applications simples, rapides et efficaces.</p>
+                <p>Développeur web (Backend (symfony 4 - 5) et frontend(Vue JS, React JS)) curieux, motivé et passionné par les nouvelles technologies et aussi le DEEP LEARNING, j'aime les applications simples, rapides et efficaces.</p>
 
-                  <p>Actuellement en licence professionnelle informatique à l'IUT 1 de Grenoble, je suis déterminé à acquérir des bases solides et devenir le meilleur dans mon domaine qui est l'informatique.</p>
+                  <p>Actuellement en Master ingénierie des logiciels au CESI Meylan, je suis déterminé à acquérir des bases solides dans mon domaine qui est l'informatique.</p>
 
                   <p>Je n'ai pas peur de relever des défis parce que c'est comme ça que l'on devient meilleur dans ce que l'on fait !</p>    
               </div>
@@ -83,13 +83,12 @@
                 <ul>
                   <li>HTML 5</li>
                   <li>CSS 3</li>
-                  <li>Boostrap 4</li>
-                  <li>Sass</li>
+                  <li>Boostrap</li>
+                  <li>React Js</li>
                   <li>Vue JS</li>
-                  <li>PHP (Symfony 4 / Laravel)</li>
-                  <li>Ruby on rails</li>
+                  <li>PHP (Symfony / Laravel)</li>
                   <li>Git</li>
-                  <li>Kraken</li>
+                  <li>Git Kraken</li>
                 </ul>
                 </p>
             </div>
@@ -103,11 +102,6 @@
                   <li>XML</li>
                 </ul>
 
-                <ul>
-                  <h6>IOS</h6>
-                  <li>X Code</li>
-                  <li>Swift</li>
-                </ul>
                 <ul>
                   <h6>Hybride</h6>
                   <li>Ionic</li>
@@ -154,6 +148,17 @@
         <div class="container text-left">
 
         <ul>
+          <li>
+              <span></span>
+              <h1 class="text">Master Responsable en ingénierie des logiciels</h1>
+              <div class="">CESI Meylan</div>
+              <div class="">Developpement apllicatif, Gestion des projets informatique, management des équipes informatique</div>
+              <div class="time">
+                  <span>2019 - 2021</span>
+              </div>
+          </li>
+          <br>
+          <br>
           <li>
               <span></span>
               <h1 class="text">Licence Professionnelle Informatique</h1>
@@ -233,7 +238,7 @@
       <br>
       <footer class="container">
         <div class="float-center" >
-          <p>© René Mumba Kibutika - Développeur FullStack 2017-2018</p>
+          <p>© René Mumba Kibutika - Développeur FullStack 2017-2021</p>
         </div>
         
       </footer>
@@ -242,28 +247,28 @@
 </template>
 
 <script>
-import Accueil from './components/Accueil.vue'
+import Accueil from "./components/Accueil.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    Accueil
-  }
-}
+    Accueil,
+  },
+};
 </script>
 
 <style>
 @font-face {
-   font-family: 'SMB';
-   src:  local('SuperMarioBros.'),
-   url('./assets/fonts/SuperMarioBros.ttf') format('truetype');
-   font-weight: normal;
+  font-family: "SMB";
+  src: local("SuperMarioBros."),
+    url("./assets/fonts/SuperMarioBros.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
-   }
-
+}
 
 #app {
-  font-family: 'Press Start 2P', 'Indie Flower', 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Press Start 2P", "Indie Flower", "Avenir", Helvetica, Arial,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -271,65 +276,60 @@ export default {
   margin-top: 60px;
 }
 
-
 .text {
   font-size: 20px;
 }
 
 ul li {
-  list-style:none;
+  list-style: none;
 }
 .cover_img {
-  background-color: #dbc960; 
+  background-color: #dbc960;
 }
 .cover {
-    width: 100%;
-    height: 800px;
-    background-image: url("./assets/gaming.jpg");
-    background-size: cover;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 800px;
+  background-image: url("./assets/gaming.jpg");
+  background-size: cover;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  }
+.cover2 {
+  width: 100%;
+  height: 100px;
+  background-image: url("./assets/mario_world.jpg");
+  background-size: cover;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  .cover2 {
-    width: 100%;
-    height: 100px;
-    background-image: url("./assets/mario_world.jpg");
-    background-size: cover;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.cover3 {
+  width: 100%;
+  height: 100px;
+  background-image: url("./assets/mario_world.jpg");
+  background-size: cover;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  }
-
-    .cover3 {
-    width: 100%;
-    height: 100px;
-    background-image: url("./assets/mario_world.jpg");
-    background-size: cover;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  }
-
-
-    .cover4 {
-    width: 100%;
-    height: 100px;
-    background-image: url("./assets/mario_world.jpg");
-    background-size: cover;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  }
-  h1, .competences {
+.cover4 {
+  width: 100%;
+  height: 100px;
+  background-image: url("./assets/mario_world.jpg");
+  background-size: cover;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1,
+.competences {
   text-decoration: underline;
   font-weight: bold;
-  color:#ff5050;
+  color: #ff5050;
 }
 
 p {
-  text-align: left
+  text-align: left;
 }
 
 #myBtn {
@@ -347,7 +347,6 @@ p {
   padding: 15px;
   border-radius: 35px;
 }
-
 
 #myBtn:hover {
   background-color: #555;
